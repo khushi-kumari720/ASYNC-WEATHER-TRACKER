@@ -8,6 +8,8 @@ let consoleOutput = document.querySelector("#consoleOutput");
 
 function log(message, type) {
     console.log(message);
+    function log(message, type) {
+    console.log(message);
 
     let entry = document.createElement("div");
     entry.classList.add("log", type || "sync");
