@@ -5,7 +5,7 @@ let form = document.querySelector("form");
 let weather = document.querySelector("#fetchData");
 let searchedCities = document.querySelector(".searchedCities");
 let consoleOutput = document.querySelector("#consoleOutput");
-
+let cityInput = document.querySelector("#cityInput");
 function log(message, type) {
     console.log(message);
     function log(message, type) {
