@@ -116,7 +116,9 @@ async function getWeatherInfo(city) {
         console.log("[SYNC] finally block — cleanup done");
     }
 }
-
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    getWeatherInfo(cityInput.value)
 form.addEventListener("submit", function(e) {
     e.preventDefault();
     getWeatherInfo(cityInput.value);
